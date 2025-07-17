@@ -9,7 +9,7 @@ import asyncio
 from dotenv import load_dotenv
 
 load_dotenv()
-RAPIDAPI_KEY = os.getenv("RAPIDAPI_KEY")
+RAPIDAPI_KEY = os.getenv("KEY")
 CONFIG_FILE = "like_channels.json"
 
 class LikeCommands(commands.Cog):
