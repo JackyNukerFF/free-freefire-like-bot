@@ -9,7 +9,7 @@ import asyncio
 from dotenv import load_dotenv
 
 load_dotenv()
-RAPIDAPI_KEY = os.getenv("RAPIDAPI_KEY")
+RAPIDAPI_KEY = os.getenv("5b46167654mshc80a31f19d27df8p1dd109jsn06440a44a5e3")
 CONFIG_FILE = "like_channels.json"
 
 class LikeCommands(commands.Cog):
@@ -144,8 +144,8 @@ class LikeCommands(commands.Cog):
                     else:
                         embed.description = "\n┌MAX LIKES\n└─This UID has already received the maximum likes today.\n"
 
-                    embed.set_footer(text="DEVELOPED BY THUG")
-                    embed.description += "\n🔗 JOIN : https://discord.gg/awPm5B3QFg"
+                    embed.set_footer(text="DEVELOPED BY Jackyy")
+                    embed.description += "\n🔗 Jacky Free Fire Nuker"
                     await ctx.send(embed=embed, mention_author=True, ephemeral=is_slash)
 
         except asyncio.TimeoutError:
